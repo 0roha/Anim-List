@@ -1,0 +1,256 @@
+.sidebar-top {
+  width: 360px;
+  top: 80px;
+  bottom: 0px;
+  right: 0px;
+  box-shadow: inset 1px 1px 7px 1px rgb(7, 200, 238);
+  background: black;
+  position: fixed;
+}
+
+.side-right .profile {
+  margin-top: -20px;
+}
+
+.side-right {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 10px;
+  bottom: 10px;
+  right: 3px;
+  width: 60px;
+  position: absolute;
+  border-left: 3px solid rgb(7, 142, 169);
+}
+
+.side-right button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(252, 6, 6);
+  height: 40px;
+  width: 40px;
+  border: none;
+  box-shadow: 1px 1px 7px 1px rgb(7, 200, 238);
+  border-radius: 20px;
+}
+
+.side-right button div {
+  position: relative;
+}
+
+.profile div {
+  color: white;
+  position: relative;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 10px;
+  background: rgb(229, 31, 9);
+  border-radius: 5px;
+  padding: 1px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none;
+  margin-top: 70px;
+}
+
+.profile:hover div {
+  opacity: 1;
+}
+
+
+.side-right .profile img {
+  width: 30px;
+  position: absolute;
+}
+
+button:hover {
+  background: rgb(7, 200, 238);
+  box-shadow: inset 1px 1px 7px 1px rgb(229, 31, 9);
+}
+
+#button-profile {
+  display: none;
+  margin-left: -1px;
+}
+
+.sidebar-top {
+  display: grid;
+  grid-template-columns: 1fr 65px;
+  border-left: 2px solid rgb(10, 106, 190);
+}
+
+.section-top {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  height: 40px;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+
+.option-box {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+.option-box:active {
+  outline: none;
+}
+
+.title {
+  font-size: 15px;
+  text-align: center;
+}
+
+.center {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-self: center;
+  margin-top: 10px;
+  height: 90px;
+  width: 95%;
+  box-shadow: inset 1px 1px 7px 1px rgb(150, 0, 0);
+  background: black;
+}
+
+.anime-status {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.anime-status span {
+  color: red;
+}
+
+.content-sidebar {
+  display: grid;
+  grid-template-rows: 110px 1fr;
+  width: 90%;
+  justify-self: center;
+  height: 83vh;
+}
+
+.bottom {
+  background: red;
+  background: black;
+  border-right: 1px solid red;
+  border-left: 1px solid red;
+  border-bottom: 1px solid red;
+  border-top: 1px solid red;
+  overflow-y: scroll;   
+  scrollbar-width: none;
+  display: none;
+}
+
+.side-content-first{
+  margin-top: 10px;
+  height: 150px;
+  margin-left: 25px;
+  width: 80%;
+  background: black;
+  box-shadow: 1px 1px 7px 1px rgb(7, 200, 238);
+  cursor: pointer;
+}
+
+.side-content{
+  margin-top: 20px;
+  height: 150px;
+  margin-left: 25px;
+  width: 80%;
+  background: black;
+  box-shadow: 1px 1px 7px 1px rgb(7, 200, 238);
+  cursor: pointer;
+}
+
+
+.side-top-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 70%;
+}
+
+.side-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-image img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 7px 1px rgb(7, 200, 238);
+}
+
+.side-tittle {
+  border-left: 2px solid rgb(7, 142, 169);
+  border-bottom: 1px solid rgb(7, 142, 169);
+}
+
+.side-anime-title {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 10px;
+  margin-left: 15px;
+  color: white;
+}
+
+.side-information {
+  font-size: 7px;
+  font-family: "IBM Plex Serif", serif;
+  margin-left: 5px;
+  color: white;
+}
+
+.side-bottom-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.side-status {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  border-top: 2px solid rgb(7, 142, 169);
+  border-right: 1px solid rgb(7, 142, 169);
+  border-top-right-radius: 20px;
+}
+
+.side-status-text p {
+  font-size: 7px;
+  font-family: "IBM Plex Serif", serif;
+  margin-left: 5px;
+  color: white;
+}
+
+.side-status-text {
+  display: flex;
+  justify-content: center;
+}
+
+.side-status-text span {
+  background: rgb(132, 17, 17);
+  padding: 1px 2px 1px 2px;
+  border-radius: 2px;
+}
+
+.side-raiting {
+  display: flex;
+  justify-content: space-around;
+  color: yellow;
+  margin-bottom: 5px;
+}
+
+.side-genre {
+  display:  block;
+  text-align: center;
+}
+
+.side-genre p{
+  font-size: 7px;
+  font-family: "IBM Plex Serif", serif;
+  color: white;
+}

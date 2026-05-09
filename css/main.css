@@ -1,0 +1,169 @@
+/*Main: main body start*/
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 867px;
+  height: 100vh;
+  margin-left: 1px;
+}
+/*Main: main body end*/
+
+
+/*Main: Left-part-top start*/
+.main-left {
+  background: black;
+  border-right: 1px solid red;
+  overflow-y: scroll;   
+  scrollbar-width: none;
+}
+
+.main-left-genre {
+  display: flex;
+  justify-content: center;
+  background: black;
+  margin-top: 80px;
+  height: 100px;
+  width: 287px;
+  position: absolute;
+  box-shadow: inset 1px 1px 7px 1px rgb(150, 0, 0);
+}
+
+.main-left-genre p{
+  font-size: 20px;
+  color: white;
+  background: black;
+  padding: 10px 10px 10px 10px;
+  box-shadow: inset 1px 1px 7px 1px rgb(7, 200, 238);
+  border: 1px solid rgb(12, 208, 248);
+  position: relative;
+}
+/*Main: Left-part-top end*/
+
+
+/*Main: center-part-top start*/
+.main-center {
+  background: black;
+  border-right: 1px solid red;
+  overflow-y: scroll;   
+  scrollbar-width: none;
+}
+/*Main: center-part-top end*/
+
+
+/*Main: right-part-top start*/
+.main-right {
+  background: black;
+  overflow-y: scroll;   
+  scrollbar-width: none;
+}
+/*Main: right-part-top end*/
+
+
+/*Design: List of anime start*/
+.left-content-first{
+  margin-top: 190px;
+  height: 150px;
+  margin-left: 25px;
+  width: 80%;
+  background: black;
+  box-shadow: 1px 1px 7px 1px rgb(7, 200, 238);
+  cursor: pointer;
+}
+
+.left-content{
+  margin-top: 20px;
+  height: 150px;
+  margin-left: 25px;
+  width: 80%;
+  background: black;
+  box-shadow: 1px 1px 7px 1px rgb(7, 200, 238);
+  cursor: pointer;
+}
+
+.left-top-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 70%;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 7px 1px rgb(7, 200, 238);
+}
+
+.tittle {
+  border-left: 2px solid rgb(7, 142, 169);
+  border-bottom: 1px solid rgb(7, 142, 169);
+}
+
+.anime-title {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 10px;
+  margin-left: 15px;
+  color: white;
+}
+
+.information {
+  font-size: 7px;
+  font-family: "IBM Plex Serif", serif;
+  margin-left: 5px;
+  color: white;
+}
+
+.left-bottom-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.status {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  border-top: 2px solid rgb(7, 142, 169);
+  border-right: 1px solid rgb(7, 142, 169);
+  border-top-right-radius: 20px;
+}
+
+.status-text p {
+  font-size: 7px;
+  font-family: "IBM Plex Serif", serif;
+  margin-left: 5px;
+  color: white;
+}
+
+.status-text {
+  display: flex;
+  justify-content: center;
+}
+
+.status-text span {
+  background: rgb(132, 17, 17);
+  padding: 1px 2px 1px 2px;
+  border-radius: 2px;
+}
+
+.raiting {
+  display: flex;
+  justify-content: space-around;
+  color: yellow;
+  margin-bottom: 5px;
+}
+
+.genre {
+  display:  block;
+  text-align: center;
+}
+
+.genre p{
+  font-size: 7px;
+  font-family: "IBM Plex Serif", serif;
+  color: white;
+}
+/*Design: List of anime end*/

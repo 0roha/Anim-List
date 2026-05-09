@@ -1,0 +1,37 @@
+@media(min-width: 300px) and (max-width: 420px){
+  /*Header left start*/
+  .header-left {
+    width: 230px;
+  }
+  /*Header left end*/
+
+
+  /*Header center start*/
+  .header .header-center {
+    display: none;
+  }
+  /*Header center end*/
+
+
+  /*Header right start*/
+  .header-right .search-section {
+    display: none;
+  }
+
+  .header-right .user-section {
+    margin-left: -140px;
+  }
+  /*Header right end*/
+
+
+  main .main-content {
+    display: none;
+  }
+
+  .section .sidebar-top {
+    width: 100%;
+  }
+  .content-sidebar .bottom {
+    display: grid;
+  }
+}
